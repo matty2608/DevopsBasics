@@ -1,0 +1,12 @@
+trigger:
+- master
+
+pool:
+ vmImage: ubuntu-latest
+
+stages:
+  - stage: A
+    jobs:
+      - job: A
+        steps:
+          - script: echo "this is sivakumar and i am learning YAML pipeline in Azure DevOps"
